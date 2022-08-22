@@ -1,16 +1,16 @@
 # Banana Ripeness Identifier
 
- Add short description of project here > 
+This project categorizes an image of a banana as either unripe, ripe, or overripe. It can be utilized by grocery stores or fruit suppliers in order to manage which bananas should be discarded, stocked, etc. and streamline the process of banana-selling.
 
 ![add image descrition here](direct image link here)
 
 ## The Algorithm
 
-Add an explanation of the algorithm and how it works. Make sure to include details about how the code works, what it depends on, and any other relevant info. Add images or other descriptions for your project here. 
+The program was trained over 50 epochs so that it can recognize bananas from many different images. It is able to categorize their ripeness with a percentage certainty in each category.
 
 ## Running this project
 
-1. Upload clear image of a banana
-2. Make sure to include any required libraries that need to be installed for your project to run.
+1. Upload a clear image of a banana.
+2. 
 
 [View a video explanation here](video link)
