@@ -11,7 +11,7 @@ The program was trained over 50 epochs so that it can recognize bananas from man
 
 ## Running this project
 
-1. Upload the keras file included in this repository. This is the trained image model that will identify the banana's ripeness.
+1. Upload the H5 file included in this repository. This is the trained image model that will identify the banana's ripeness.
 2. Upload a clear image of a banana. When prompted, input the exact file name of the image. The program will output the banana's ripeness, along with the percentage certainty.
 
 [View a video explanation here](video link)
