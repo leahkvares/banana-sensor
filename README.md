@@ -1,1 +1,1 @@
-# banana-sensor
+# Banana Ripeness Identifier
