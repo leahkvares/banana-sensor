@@ -10,7 +10,7 @@ model = load_model('keras_model.h5')
 # determined by the first position in the shape tuple, in this case 1.
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-img_name = input("What is the name of your file image?")
+img_name = input("What is the name of your image file? \n")
 image = Image.open(img_name)
 #resize the image to a 224x224 with the same strategy as in TM2:
 #resizing the image to be at least 224x224 and then cropping from the center
@@ -37,6 +37,6 @@ for predictions in prediction:
       index = count 
     count += 1
 
-classes = ["Ripe", "Unripe", "Overripe"]
+classes = ["ripe", "unripe", "overripe"]
 print("This banana is " + str(classes[index]))
 print("With a confidence of: " + str(greatest_guess))
