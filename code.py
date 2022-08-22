@@ -26,4 +26,17 @@ data[0] = normalized_image_array
 
 # run the inference
 prediction = model.predict(data)
-print(prediction)
+print("Confidence level for all categories: " + str(prediction))
+greatest_guess = 0
+index = 0
+count = 0
+for predictions in prediction:
+  for guess in predictions:
+    if guess > greatest_guess:
+      greatest_guess = guess
+      index = count 
+    count += 1
+
+classes = ["Unripe", "Ripe", "Overripe"]
+print("Class with greatest confidence was: " + str(classes[index]))
+print("With a confidence of: " + str(greatest_guess))
