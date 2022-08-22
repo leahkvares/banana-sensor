@@ -37,6 +37,6 @@ for predictions in prediction:
       index = count 
     count += 1
 
-classes = ["Unripe", "Ripe", "Overripe"]
-print("Class with greatest confidence was: " + str(classes[index]))
+classes = ["Ripe", "Unripe", "Overripe"]
+print("This banana is " + str(classes[index]))
 print("With a confidence of: " + str(greatest_guess))
