@@ -2,7 +2,7 @@
 
 This project categorizes an image of a banana as either unripe, ripe, or overripe. It can be utilized by grocery stores or fruit suppliers in order to manage which bananas should be discarded, stocked, etc. and streamline the process of banana-selling.
 
-![Example output]<img width="1140" alt="Screen Shot 2022-08-21 at 10 35 41 PM" src="https://user-images.githubusercontent.com/68879253/185827907-99a32302-1418-429f-b48f-660d7c1a1966.png">
+Example output:<img width="1172" alt="Screen Shot 2022-08-21 at 10 43 16 PM" src="https://user-images.githubusercontent.com/68879253/185828417-02da1358-dd83-4ebd-be3e-583380b5a39b.png">
 
 
 ## The Algorithm
